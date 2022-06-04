@@ -25,9 +25,11 @@ const Home: NextPage = () => {
         <p className={styles.desc}>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         </p>
+        <img className={styles.splash} src="/splash.png" />
         <Button onClick={() => openNotificationWithIcon('success')} className={styles.btn} type="primary" shape="round" icon={<DownloadOutlined />} size={size}>
           Download
         </Button>
+        <p className={styles.footer}>Footer</p>
       </div>
     </div>
   )
